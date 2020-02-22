@@ -1,0 +1,169 @@
+	*{
+		margin:0;
+		padding:0;
+	}
+	
+	/*home*/
+	.navbar{
+		background:rgba(0,0,0,0.7)!important;
+	}
+	
+	.navbar .nav-item{
+		margin-right:.5rem;
+	}
+	 .navbar .nav-item .nav-link{
+	 	color:#f4f4f4;
+	 	text-transform:uppercase;
+	 	font-size:1.8rem;
+	 }
+	 
+	 .navbar .nav-item .nav-link.active,
+	 .navbar .nav-item .nav-link:hover{
+	 	color:red;
+	 }
+	.carousel-inner img{
+		height:100vh;
+	}
+	
+	.carousel-inner .caption{
+		position:absolute;
+		top:35%;
+		width:100%;
+		right:0;
+		left:0;
+	}
+	.carousel-inner .caption h1{
+		color:#f4f4f4;
+		font-weight:700;
+		font-size:3rem;
+		text-shadow:1px 1px 3px #333;
+		margin-bottom:2.2rem;
+	}
+	
+	.carousel-inner .caption .btn-outline-light{
+		color:#f4f4f4;
+		padding:.8rem;
+		border-width:medium;
+		border-radius:0;
+		font-size:2rem;
+		/*margin-top:.5rem;*/
+	}
+	
+	.carousel-inner .caption .btn-outline-light:hover{
+		background:rgba(20,20,20,0.5);
+		color:#f4f4f4;
+	}
+	
+	/*about*/
+	#about{
+		background:#111;
+		color:#f4f4f4;
+		padding:7rem 0 3rem;
+	}
+	
+	.offset{
+		margin-top:5rem;
+	}
+	#about .narrow{
+		padding-top:7rem;
+	}
+	
+	#about .line{
+		width:100%;
+		border-top:1px solid #f4f4f4;
+	}
+	
+	#about img{
+		width:170px;
+		margin:0 0 1.5rem;
+		border-radius:10px;
+	}
+	
+	#about .lead{
+		font-size:2.1rem;
+	}
+	
+	#portfolio{
+		overflow:hidden;
+	}
+	
+	#portfolio h3{
+		text-align:center;
+		font-size:2.3rem;
+		text-transform:uppercase;
+		margin-bottom:.5rem;	
+	}
+	#portfolio .portfolio a img{
+		max-width:100%;
+		transition:transform 5s ease;
+		margin-bottom:.5rem;
+	}
+	
+	#portfolio .portfolio a img:hover{
+		transform:scale(1,1);
+		cursor:zoom-in;
+	}
+	
+
+	/*footer*/
+	footer{
+		background:#40474e;
+		color:#f4f4f4;
+		padding:7rem 0 1rem;
+	}
+	footer .socket{
+		width:100%;
+		border-top:1px solid #f4f4f4;
+	}
+	.facebook,.twitter,.instagram{
+		color:#f4f4f4;
+	}
+	
+	.facebook,.twitter,.instagram:hover{
+		color:#f4f4f4;
+	}
+	
+	@media(max-width:576px){
+		.navbar .nav-item .nav-link{
+		color:#f4f4f4;
+		text-transform:uppercase;
+		font-size:.8rem;
+		}
+		
+		.carousel-inner .caption h1{
+		color:#f4f4f4;
+		font-weight:600;
+		font-size:2.3rem;
+		text-shadow:1px 1px 3px #333;
+		margin-bottom:.4rem;
+		}
+		
+		.carousel-inner .caption .btn-outline-light{
+		color:#f4f4f4;
+		padding:.4rem;
+		border-width:medium;
+		border-radius:0;
+		font-size:1.3rem;
+		margin-top:.5rem;
+		}
+		
+		#about{
+			background:#111;
+			color:#f4f4f4;
+			padding:3rem 0 3rem;
+		}
+		
+		#about .lead{
+			font-size:1.3rem;
+		}
+		
+		.offset{
+			margin-top:2rem;
+		}
+		
+		footer{
+			background:#40474e;
+			color:#f4f4f4;
+			padding:4rem 0 1rem;
+		}
+	}
